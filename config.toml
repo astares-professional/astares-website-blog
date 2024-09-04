@@ -24,6 +24,12 @@ theme = "tailwind"
 [menu]
 
   [[menu.main]]
+    identifier = "home"
+    name = "astare.com"
+    url = "https://www.astares.com"
+    weight = 10
+
+  [[menu.main]]
     identifier = "post"
     name = "Post"
     pageRef = "/posts"
@@ -32,7 +38,7 @@ theme = "tailwind"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    pageRef = "/about"
+    url = "https://about.astares.com"
     weight = 20
 
 [taxonomies]

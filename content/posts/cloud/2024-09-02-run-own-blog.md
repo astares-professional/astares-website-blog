@@ -8,3 +8,13 @@ tags: ["Smalltalk", "Cloud"]
 description: "A beginner's guide to getting started with Hugo static site generator."
 slug: "introduction-to-new-solution"
 ---
+
+
+## Tables
+
+Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-box.
+
+   Name | Age
+--------|------
+    Bob | 27
+  Alice | 23
