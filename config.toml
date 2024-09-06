@@ -24,28 +24,34 @@ theme = "tailwind"
 [menu]
 
   [[menu.main]]
-    identifier = "home"
-    name = "astare.com"
+    identifier = "main"
+    name = "astares.com"
     url = "https://www.astares.com"
     weight = 10
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pageRef = "/"
+    weight = 20
 
   [[menu.main]]
     identifier = "post"
     name = "Post"
     pageRef = "/posts"
-    weight = 10
+    weight = 30
 
   [[menu.main]]
     identifier = "brand"
     name = "Brand"
     url = "https://www.figma.com/design/xSIGYJl76tP42hpG1Iaca1/ASTARES?node-id=0-1&t=1AAwDaTyGG5FZLUI-1"
-    weight = 20
+    weight = 40
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "https://about.astares.com"
-    weight = 30
+    weight = 50
 
 [taxonomies]
 category = "categories"
