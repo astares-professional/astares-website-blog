@@ -36,6 +36,12 @@ theme = "tailwind"
     weight = 10
 
   [[menu.main]]
+    identifier = "brand"
+    name = "Brand"
+    url = "https://www.figma.com/design/xSIGYJl76tP42hpG1Iaca1/ASTARES?node-id=0-1&t=1AAwDaTyGG5FZLUI-1"
+    weight = 20
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "https://about.astares.com"
