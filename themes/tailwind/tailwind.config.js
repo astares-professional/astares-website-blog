@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'heading': ['League Spartan', 'sans-serif'],
+        'body': ['Poppins', 'sans-serif'],
+      },
       typography: {
         quoteless: {
           css: {
