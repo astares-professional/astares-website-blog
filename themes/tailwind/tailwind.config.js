@@ -20,7 +20,7 @@ module.exports = {
         'accent4': '#0A629E',    // Rave Regatta
         'accent5': '#5494BF',    // Blue Paradise
         'accent6': '#85B5D4',    // BLUE BELL 
-        'dark':    '#080808',    // Vampire Black
+        'dark':    '#111827',    
         darkblue: {"50":"f8f9fc","100":"#f1f3f9","200":"#e2e6f2","300":"#cbd3e5","400":"#94a1c9","500":"#6472a0","600":"#47547a","700":"#33405d","800":"#1e2a3f","900":"#0f1627"}
       },
       typography: {
