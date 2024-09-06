@@ -1,5 +1,6 @@
 # astares-website-blog
-The blog.astares.com
+
+The [https://blog.astares.com](https://blog.astares.com) and [https://astares-website-blog.netlify.app](https://astares-website-blog.netlify.app) site.
 
 This is a blog for the website done with Hugo and TailwindCSS. Theme is based on [https://hugo-theme-tailwind.tomo.dev](https://hugo-theme-tailwind.tomo.dev)
 with adoptions necessary to follow brand style. Also the theme is inlined and not done as the usual git submodule.
