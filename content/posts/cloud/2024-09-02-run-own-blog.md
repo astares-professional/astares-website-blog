@@ -18,3 +18,15 @@ Tables aren't part of the core Markdown spec, but Hugo supports them out-of-the-
 --------|------
     Bob | 27
   Alice | 23
+
+  ```Smalltalk
+  Transcript show: 'Hello World'.
+  ```
+
+
+  ```Java
+  public class Foo extends Bar {
+
+
+  }
+  ```

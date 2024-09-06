@@ -1168,10 +1168,6 @@ video {
   position: static;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -1550,11 +1546,6 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
 .bg-red-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
@@ -1728,11 +1719,6 @@ video {
 .text-accent4 {
   --tw-text-opacity: 1;
   color: rgb(10 98 158 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-emerald-600 {
@@ -2946,19 +2932,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:block {
-    display: block;
-  }
-
-  .sm\:hidden {
-    display: none;
-  }
-
-  .sm\:bg-red-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-  }
-
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -3044,65 +3017,19 @@ video {
     border-left-width: 1px;
   }
 
-  .md\:bg-yellow-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-  }
-
   .md\:pl-2 {
     padding-left: 0.5rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .lg\:block {
-    display: block;
-  }
-
-  .lg\:hidden {
-    display: none;
-  }
-
   .lg\:max-w-5xl {
     max-width: 64rem;
-  }
-
-  .lg\:bg-green-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(187 247 208 / var(--tw-bg-opacity));
   }
 }
 
 @media (min-width: 1280px) {
-  .xl\:block {
-    display: block;
-  }
-
-  .xl\:hidden {
-    display: none;
-  }
-
   .xl\:h-60 {
     height: 15rem;
-  }
-
-  .xl\:bg-blue-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(191 219 254 / var(--tw-bg-opacity));
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:block {
-    display: block;
-  }
-
-  .\32xl\:hidden {
-    display: none;
-  }
-
-  .\32xl\:bg-pink-200 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(251 207 232 / var(--tw-bg-opacity));
   }
 }

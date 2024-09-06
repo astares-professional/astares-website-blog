@@ -45,7 +45,7 @@ theme = "tailwind"
     identifier = "about"
     name = "About"
     url = "https://about.astares.com"
-    weight = 20
+    weight = 30
 
 [taxonomies]
 category = "categories"
