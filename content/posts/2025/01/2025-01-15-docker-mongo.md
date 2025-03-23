@@ -52,7 +52,7 @@ WARNING: MongoDB 5.0+ requires a CPU with AVX support, and your current system d
   see also https://github.com/docker-library/mongo/issues/485#issuecomment-891991814
 ```
 AVX is the abbreviation for **Advanced Vector Extensions** - an extended instruction set for x86 that your CPU must support.
-The VirtualBox image I was using did not have AVX enabeld.
+The VirtualBox image I was using did not have AVX enabled.
 
 ## Solution 1: Downgrade MongoDB version
 
@@ -73,7 +73,12 @@ CONTAINER ID   IMAGE       COMMAND                  CREATED         STATUS      
 ```
 and you will also notice that the size of the image is around half the size of a recent one.
 
+## Solution 2: Enable AVE for the VM
 
+The other option is to enable AVE for the specific virtual machine in VirtualBox.
+This can be done using the following command:
 
-
+```
+VBoxManage modifyvm <Your_VM_Name> --hwvirtex on
+```
 
