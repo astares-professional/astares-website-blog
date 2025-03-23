@@ -3,8 +3,8 @@ title: "Spring Dependencies Import"
 date: 2024-08-22T09:00:00-07:00
 lastmod: 2024-08-22T09:00:00-07:00
 draft: false
-categories: ["Java", "Spring"]
-tags: ["Java", "Spring", "Dependencies"]
+categories: ["Java"]
+tags: ["Java", "Spring", "Dependencies", "Maven"]
 description: "Dependencies in Spring"
 slug: "spring-dependencies"
 ---

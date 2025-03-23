@@ -3,8 +3,8 @@ title: "Mongo on docker"
 date: 2025-01-15T09:00:00-07:00
 lastmod: 2025-01-04T09:00:00-07:00
 draft: false
-categories: ["Virtualization", "MongoDB"]
-tags: ["NoSQL", "Database"]
+categories: ["Virtualization", "Database"]
+tags: ["MongoDB","NoSQL", "Database"]
 description: "Running recent Mongo with docker might fail"
 slug: "docker-mongo"
 ---
