@@ -73,9 +73,9 @@ CONTAINER ID   IMAGE       COMMAND                  CREATED         STATUS      
 ```
 and you will also notice that the size of the image is around half the size of a recent one.
 
-## Solution 2: Enable AVE for the VM
+## Solution 2: Enable AVX for the VM
 
-The other option is to enable AVE for the specific virtual machine in VirtualBox.
+The other option is to enable AVX for the specific virtual machine in VirtualBox.
 This can be done using the following command:
 
 ```
