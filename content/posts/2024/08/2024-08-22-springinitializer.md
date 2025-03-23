@@ -11,5 +11,37 @@ slug: "spring-dependencies"
 
 # Spring Dependencies Import
 
-When you use Spring Initializr you will notice that it defines a maven parent project for your project:
- 
+## The Problem
+
+When you use Spring Initializr you will notice that it defines a maven parent for your project. This parent is **spring-boot-starter-parent** which has itself another parent **spring-boot-dependencies** defined in the POM.
+
+
+```mermaid
+graph TD;
+    myproject-->spring-boot-starter-parent;
+    spring-boot-starter-parent-->spring-boot-dependencies;
+    
+```
+
+The POM in **spring-boot-dependencies** defines many dependencies already.
+
+But having it available only from the parent POM might be limiting as you want to use your own custom parent POM.
+
+```mermaid
+graph TD;
+    myproject-->myproject-parent;
+```
+
+So ideally do not use this predefined Spring Initializr code:
+
+![The predefined spring parent prevents to have an own and custom one.](./images/spring-parent.png)
+
+
+## The Solution
+
+The solution actually is very easy as Maven allows you to import the definitions of another POM.
+
+Use the <dependencyManagement> node for that. You can either import in your project POM or in your custom parent POM.
+
+![Use import as a solution.](./images/spring-import.png)
+
