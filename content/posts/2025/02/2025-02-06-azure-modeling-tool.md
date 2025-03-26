@@ -29,4 +29,4 @@ Checking what is available I found [https://azurediagrams.com/](https://azuredia
 
 However, it primarily focuses on diagramming and visualization rather than generating deployment-ready ARM templates or enabling interactive planning processes. 
 
-![Azure Diagrams.](../images/azurediagrams.png)
+![Azure Diagrams.](../images/azurediagramscom.png)
