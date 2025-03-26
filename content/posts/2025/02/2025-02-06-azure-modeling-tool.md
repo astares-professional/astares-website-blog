@@ -49,4 +49,22 @@ And the cool thing is that it allows for customization through UML profiles, mak
 
 So if you want to model your own domain in Papyrus, the recommended approach is to create a **custom UML profile**. A UML profile allows you to extend the standard UML elements to suit the specific needs of your domain by defining stereotypes, tagged values, and constraints.
 
+Just create a *Papyrus model project* and then choose *"Profile"*
+
 ![Custom UML Profile creation](../images/umlprofile.png)
+
+With the newly created profile definition now the work starts on the meta-level. After importing an appropriate Metaclass like **Component** I've build up a model of Azure. Here is a part of the model:
+
+![The domain model on the meta level](../images/azuredomainmodel.png)
+
+Now we can add attributes and relations but also design shapes (SVG)and icons (based on PNG).
+
+It is now possible to save the model as a dynamic model definition under the versioned profile definition. 
+
+![Custom UML Profile creation](../images/profiledefinition.png)
+
+### Applying the profile to a real project
+
+Once the custom profile is defined you can apply directly to a new model project. 
+
+![Custom UML Profile creation](../images/profileproperties.png)
