@@ -13,9 +13,11 @@ slug: "azure-modeling-tool"
 
 ## The problem
 
-As an architect I often work visualizations and diagrams. They are invaluable tools that can significantly enhance work and communication with stakeholders. Complex architectural topics require a common understanding and as often **“a picture is worth a thousand words.”**
+As an architect I often work with visualizations and diagrams. They are invaluable tools that can significantly enhance work and communication with stakeholders. Complex architectural topics require a common understanding and as often **“a picture is worth a thousand words.”**
 
-When it comes to the cloud as an architect you also want to work with visual tools. If we talk about Azure for instance there is not much specific visual tooling available:
+Same for cloud related topics - as an architect you also want to work with visual tools here. If we talk about Azure (the cloud from Microsoft) we basically talk about domain parts like tenants, resource groups, virtual networks, subcriptions, virtual machines and other. As resources they are typically all under the umbrealla of the Azure **Resource Manager (ARM)**. So ideally one would be able to draw an diagram to plan the upcoming architecture. And then (using the same source) generate an ARM template that can be pushed into the cloud instance for the resources to be provisioned.
+
+Unfortunately there is not much tooling support in that area. For instance there is not much specific visual tooling available:
 
 - **[ARM Template Viewer](https://learn.microsoft.com/en-us/answers/questions/370410/how-to-generate-architecture-diagram-from-azure-re)** - this extension in VisualStudio Code lets you visualize and edit existing ARM templates
 
@@ -68,3 +70,16 @@ It is now possible to save the model as a dynamic model definition under the ver
 Once the custom profile is defined you can apply directly to a new model project. 
 
 ![Custom UML Profile creation](../images/profileproperties.png)
+
+## Using the diagram
+
+Using the new profile I was now able to really draw diagrams using the typical Azure shapes for the different resources and store the diagrams. 
+
+Great - our Azure diagramming tool is now usable.
+
+![Custom UML Profile creation](../images/profileproperties.png)
+
+Still requires some tweaks - I might open source the example project once finished together with an XMI importer and template generator (which is easy to do).
+
+As they are typically file based within the Eclipse/Papyrus I can even keep them under version control (with git for instance):
+
