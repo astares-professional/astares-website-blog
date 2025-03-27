@@ -77,7 +77,7 @@ Using the new profile I was now able to really draw diagrams using the typical A
 
 Great - our Azure diagramming tool is now usable.
 
-![Custom UML Profile creation](../images/profileproperties.png)
+![Custom UML Profile creation](../images/azurediagram.png)
 
 Still requires some tweaks - I might open source the example project once finished together with an XMI importer and template generator (which is easy to do).
 
