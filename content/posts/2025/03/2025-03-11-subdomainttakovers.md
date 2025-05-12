@@ -78,4 +78,4 @@ There is [a nice tech community article explaining](https://techcommunity.micros
 
 ## Summary
 
-A subdomain takeover occurs when a subdomain remains configured after its associated service is deleted, allowing attackers to claim and misuse it. This is particularly risky in any online environment, where automated DNS assignments can expose vulnerable endpoints. You need to take proactive security measures to prevent subdomain hijacking - a professional governance can help you avoiding it.
+*A subdomain takeover occurs when a subdomain remains configured after its associated service is deleted, allowing attackers to claim and misuse it. This is particularly risky in any online environment, where automated DNS assignments can expose vulnerable endpoints. You need to take proactive security measures to prevent subdomain hijacking - a professional governance can help you avoiding it.*
