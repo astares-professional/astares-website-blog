@@ -4,7 +4,7 @@ date: 2024-12-13T09:00:00-07:00
 lastmod: 2024-12-13T09:00:00-07:00
 draft: false
 categories: ["Azure"]
-tags: ["JavaScript", "Express", "VisualStudio Code", "IDE", "Azure"]
+tags: ["JavaScript", "Express", "VisualStudio Code", "IDE", "Azure", "Cloud"]
 description: "Azure AppService Deployment with VisualStudio Code"
 slug: "appservice-deployment"
 ---
@@ -61,7 +61,11 @@ You can get the plugin from the marketplace:
 
 [https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice)
 
-In the Azure view just right click on AppService to deploy. The plugin will ask your about
+In the Azure view just right click on AppService to deploy. 
+
+![Azure AppService Plugin.](../images/azureappserviceplugin.png)
+
+The plugin will ask your about
 
 - the subscription
 - the resource group
@@ -78,10 +82,12 @@ Following proper governance it is recommended to group the resources in a common
 |air-|Azure Insight Resource|   
 |asp-|App Service plan
 
+![Azure AppService Plugin.](../images/azureappservicedeployment.png)
+
 ## Pro Tip:
 As VisualStudio Code provides its own settings in your projects folder under a *.code* directory you can easily define the deployment target directly in the **settings.json** file. 
 
-### Example:
+Here is an example:
 
 ```JSON
 {
