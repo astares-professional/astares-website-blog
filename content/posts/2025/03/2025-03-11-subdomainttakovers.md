@@ -38,35 +38,35 @@ and even integrate it into your webpage or other services.
 
 Maybe the service and name assignment was only used for a test or integration scenario. Or the service is not required anymore so it can be deleted to avoid further costs.
 
-If you delete the service the subdomain is free again and can be used by the next customer to expose a service. If the DNS settings stay you might come into the situation that the URL is controlled by someone other who might abuse this situation.
+If you delete the service the subdomain is free again and can be used by the next customer to expose a service. If the DNS settings stay you might come into the situation that the **URL is controlled by someone other** who might abuse the situation.
 
-Attackers can set up a fake page on the hijacked subdomain and trick users into entering sensitive information, believing it's a legitimate part of the original website or service.
+Attackers can set up a fake page on the hijacked subdomain and trick users into entering sensitive information, believing it's a legitimate part of your original website or service.
 
 ## How to solve it
 
-So when decommissioning a service, it's crucial to clean up associated DNS records properly to prevent a dangling subdomain that attackers could exploit
+So when decommissioning a service, it's crucial to **clean up associated DNS records properly** to prevent a dangling subdomain that attackers could exploit.
 
-Follow a few easy principles:
+Therefore follow a few easy principles:
 - Tear down and clean up properly - check if DNS settings need to be updated
 - Clean up DNS pointers or Re-claim the DNS
 - Regularly audit DNS records and remove unused subdomains
-- Put a [lock on resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources) - this avoids accidential deletion
+- Put a [lock on resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/lock-resources) on resources that should stay - this avoids accidential deletion
 - Monitor subdomains for unexpected changes or activity
 - Keep a reference list of URLs and (automatically) test what they expose
 - Ideally test what is reachable under the given names
 
-And the most important: make your team aware of [dangling DNS and subdomain takeover](https://learn.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover) issues.
+And the most important: make your team aware of possible issues [dangling DNS and subdomain takeover](https://learn.microsoft.com/en-us/azure/security/fundamentals/subdomain-takeover).
 
 ## Prevention in Azure
 
-Microsoft seems to be aware of the issue - upon deletion of an **App Service** or **App Service Environment** (ASE) in Azure App Service, immediate reuse of the corresponding DNS is forbidden. [Read more here](https://learn.microsoft.com/en-us/azure/app-service/reference-dangling-subdomain-prevention).
+Microsoft in Azure is aware of the issue - now upon deletion of an **App Service** or **App Service Environment** (ASE) in Azure App Service an immediate reuse of the corresponding DNS is forbidden. [Read more here](https://learn.microsoft.com/en-us/azure/app-service/reference-dangling-subdomain-prevention).
 
 The Azure App Service (for new web apps) also allows to create web apps with unique default hostnames.
 
-Basically this is solved by using:
+Basically the URL is now more complex to provide uniqueness:
 
-- a random hash appended to the web app name with a dash “-”  
-- a region name 
+- a random hash is appended to the web app name with a dash “-”  
+- a region name is appended too 
 
 ```
 https://my-new-business-service-a4gqaeashthwfkeu.germanywestcentral-01.azurewebsites.net
@@ -74,7 +74,7 @@ https://my-new-business-service-a4gqaeashthwfkeu.germanywestcentral-01.azurewebs
 
 ![Azure Hashed URL](../images/takeoverprevention.png)
 
-There is [a nice tech community article explaining](https://techcommunity.microsoft.com/blog/appsonazureblog/public-preview-creating-web-app-with-a-unique-default-hostname/4156353) this concept if you want to know more.
+There is [a nice tech community article explaining](https://techcommunity.microsoft.com/blog/appsonazureblog/public-preview-creating-web-app-with-a-unique-default-hostname/4156353) this concept if you want to go further into the details.
 
 ## Summary
 
