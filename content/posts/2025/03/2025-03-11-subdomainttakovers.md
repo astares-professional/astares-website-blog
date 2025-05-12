@@ -1,15 +1,15 @@
 ---
-title: "Subdomain Takeover (in Azure)"
+title: "Subdomain Takeover"
 date: 2025-03-11T09:00:00-07:00
 lastmod: 2025-03-13T09:00:00-07:00
 draft: false
-categories: ["Azure"]
-tags: ["Security", "DNS", "Hosting","Azure", "Cloud"]
-description: "Avoid Subdomain takeovers in the cloud"
-slug: "subdomain-takovers"
+categories: ["Security", "Cloud"]
+tags: ["Security", "Azure", "DNS", "Hosting", "Azure", "Cloud"]
+description: "Avoid subdomain takeovers in the cloud"
+slug: "subdomain-takeovers"
 ---
 
-# Subdomain Takeover (in Azure)
+# Subdomain Takeover
 
 ## What is it and why should you care
 
