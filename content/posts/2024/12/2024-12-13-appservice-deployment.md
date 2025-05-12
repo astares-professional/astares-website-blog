@@ -1,11 +1,11 @@
 ---
-title: "Azure AppService Deployment with VisualStudio Code"
+title: "Azure AppService Deployment"
 date: 2024-12-13T09:00:00-07:00
 lastmod: 2024-12-13T09:00:00-07:00
 draft: false
 categories: ["Azure"]
 tags: ["JavaScript", "Express", "VisualStudio Code", "IDE", "Azure", "Cloud"]
-description: "Azure AppService Deployment with VisualStudio Code"
+description: "Azure AppService Deployment using VisualStudio Code"
 slug: "appservice-deployment"
 ---
 
