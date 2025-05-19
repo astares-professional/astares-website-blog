@@ -15,7 +15,7 @@ When it comes to **JavaScript testing**, Jest is one of the most powerful and us
 
 - [JestJS (https://jestjs.io/)](https://jestjs.io/)
 
-## Tip #1 - 
+## Tip #1 - Extended Test Structure
 
 By default Jest checks the /test directory for test case files - but you **might want to group more tests into additional subdirectories**. In such a case you have to modify your **package.json**
 
