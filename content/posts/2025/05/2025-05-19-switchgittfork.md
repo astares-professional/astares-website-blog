@@ -21,7 +21,7 @@ This new branch is now the **new default branch** on the standard **upstream** P
 
 [https://github.com/pharo-project/pharo](https://github.com/pharo-project/pharo)
 
-And there is already a code freeze - so the Pharo 13 branch is only accepting very important hotfixes and (important) backports from P14.
+And there is already a [code freeze](https://www.pharo.org/news/2025-04-25-Pharo13Freeze.html) - so the Pharo 13 branch is only accepting very important hotfixes and (important) backports from P14.
 
 ## Update your fork
 
