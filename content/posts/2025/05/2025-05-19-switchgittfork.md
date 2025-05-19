@@ -52,7 +52,7 @@ So once the new branch is pushed, one needs to update the default branch manuall
 - Navigate to the **General** and **Default branch** section
 - Click on **Switch to another branch** and change the default branch to **Pharo14**
 
-![14 default branch](.l/images/p_branch_14.png)
+![14 default branch](../images/p_branch_14.png)
 
 ## New image location
 
