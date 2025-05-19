@@ -65,7 +65,7 @@ while the old one keeps running on
 
 https://ci.inria.fr/pharo-ci-jenkins2/job/Test%20pending%20pull%20request%20and%20branch%20Pipeline/job/Pharo13/
 
-![Jenkins](.l/images/p_ci_13.png)
+![Jenkins](../images/p_ci_13.png)
 
 While checking I found a synch issue between the builds and the file area. I [opened an issue for it to track](https://github.com/pharo-project/pharo/issues/18175).
 
