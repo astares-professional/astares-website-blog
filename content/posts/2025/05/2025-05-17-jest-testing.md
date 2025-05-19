@@ -42,7 +42,7 @@ npx jest --clearCache
 npm test
 ```
 
-![Running Tests]("../images/jest.png")
+![Running Tests](../images/jest.png)
 
 
 
