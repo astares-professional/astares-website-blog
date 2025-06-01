@@ -1,7 +1,7 @@
 ---
 title: "Microsoft SLA"
 date: 2021-04-18T09:00:00-07:00
-lastmod: 201-04-18T09:00:00-07:00
+lastmod: 2021-04-18T09:00:00-07:00
 draft: false
 categories: ["Governance"]
 tags: ["IT Governance", "SLA", "Microsoft", "Cloud"]
