@@ -207,3 +207,9 @@ If you visit
 [https://portal.azure.com/#view/HubsExtension/TemplateEditorBladeV2](https://portal.azure.com/#view/HubsExtension/TemplateEditorBladeV2)
 
 you can use a comfortable **Online Editor** to edit the ARM templates.
+
+# Template repo
+
+There is a **GitHub repo** with all currently available **Azure Resource Manager QuickStart templates** from the community.
+
+Check it out at: [https://github.com/Azure/azure-quickstart-templates](https://github.com/Azure/azure-quickstart-templates)
