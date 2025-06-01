@@ -11,20 +11,20 @@ slug: "microsoft-sla"
 
 # Service Level Agreements (SLA) for Microsoft Online Services
 
-Your business rely on cloud services from Microsoft like 
+Your business is relying on **cloud services from Microsoft** like 
 
-- M365
-- Azure
-- Sharepoint Online
-- PowerBI
-- Teams 
+- [M365](https://www.office.com)
+- [Azure](https://azure.microsoft.com)
+- [Sharepoint Online](https://www.microsoft.com/en/microsoft-365/sharepoint/collaboration)
+- [PowerBI](https://www.microsoft.com/en-us/power-platform/products/power-bi)
+- [Teams](https://teams.microsoft.com/)
 
 and other to name just a few.
 
-For regulatory reasons you have to stand an audit and provde compliance, service performance, or other contractual obligations. Then check the SLA site from Microsoft providing you the necessary documents for the Microsoft services:
+For regulatory reasons you have to stand an audit and provde compliance, service performance, or other contractual obligations. Then check the **SLA site** from Microsoft providing you the necessary documents for the Microsoft services:
 
 https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services
 
-Using URL parameter you can easily filter for "german" and current year:
+Using additional **URL parameters** you can easily **filter** for "german" language version and the current year:
 
 https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=14&year=2021
