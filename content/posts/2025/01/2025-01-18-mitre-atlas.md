@@ -5,7 +5,7 @@ lastmod: 2025-01-18T09:00:00-07:00
 draft: false
 categories: ["Security"]
 tags: ["AI", "Security", "Governance", "Cyberwar"]
-description: ""
+description: "MITRE Atlas - understand threats specific to AI systems"
 slug: "mitre-atlas"
 ---
 
