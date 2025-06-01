@@ -1,0 +1,79 @@
+---
+title: "WordCount (wc)"
+date: 2021-10-18T09:00:00-07:00
+lastmod: 2021-10-18T09:00:00-07:00
+draft: false
+categories: ["Unix"]
+tags: ["Unix", "CLI", "wc", "Tools"]
+description: "Word Count (wc) tricks"
+slug: "wc-tricks"
+---
+
+# WordCount (wc) 
+
+*The wc (word count) command in Unix/Linux is a powerful utility 
+used to count lines, words, and characters in a file or text stream.*
+
+## Basic usage
+
+Running wc on a file gives a summary of its content
+
+```bash
+wc README.md
+```
+might result in
+```
+1047  6342 46120 README.md
+```
+which means 1047 Lines, 6342 Words and 46120 Characters in the file.
+
+You can also do cherry picking to query for each info separately
+
+### Prints the number of lines in a file.
+
+```bash
+wc -l README.md
+```
+results in
+```
+1047 README.md
+```
+### Prints the number of words in a file.
+```bash
+wc -w README.md
+```
+results in
+```
+6342 README.md
+```
+### Prints the number of characters (bytes) in a file.
+```bash
+wc -c README.md
+```
+results in
+```
+46120 README.md
+```
+### Improve the output
+
+As you might have noticed the name of the file is included in the output. But often
+you are only interested in the number. So lets combine it with *awk* command:
+
+```bash
+wc -c README.md | awk '{print $1}'
+```
+results in
+```
+46120
+```
+only
+
+
+## Other Tricks
+
+### Prints only the length of the longest line in a file.
+
+```bash
+wc -L file.txt
+```
+
