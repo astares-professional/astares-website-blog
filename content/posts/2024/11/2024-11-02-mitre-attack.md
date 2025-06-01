@@ -25,4 +25,4 @@ You can access the tool on
 
 and it is worth a look.
 
-If you know these tricks, you can build better defenses.
+If you know these tricks, you can build better defenses. If you want to print out and mark the matrix parts there is a [PDF available for download](https://attack.mitre.org/docs/attack_matrix_poster_2020.pdf).
