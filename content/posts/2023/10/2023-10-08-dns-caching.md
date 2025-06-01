@@ -1,7 +1,7 @@
 ---
 title: "DNS Caching"
-date: 2023-08-12T09:00:00-07:00
-lastmod: 2023-08-12T09:00:00-07:00
+date: 2023-10-08T09:00:00-07:00
+lastmod: 2023-10-08T09:00:00-07:00
 draft: false
 categories: ["DNS"]
 tags: ["Network", "Migrate","Applications", "Caching", "Security"]

@@ -1,7 +1,7 @@
 ---
 title: "Archimate - Motivations"
-date: 2021-10-18T09:00:00-07:00
-lastmod: 2021-10-18T09:00:00-07:00
+date: 2022-08-04T09:00:00-07:00
+lastmod: 2022-08-04T09:00:00-07:00
 draft: false
 categories: ["Enterprise Architecture"]
 tags: ["Architecture", "Enterprise Architecture", "Motivation", "Modelling", "archi", "Tools", "Archimate", "IT-Architecture"]

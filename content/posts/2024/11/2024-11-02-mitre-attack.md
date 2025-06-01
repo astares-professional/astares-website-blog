@@ -1,7 +1,7 @@
 ---
 title: "MITRE ATT&CK"
-date: 2024-12-13T09:00:00-07:00
-lastmod: 2024-12-13T09:00:00-07:00
+date: 2024-11-02T09:00:00-07:00
+lastmod: 2024-11-02T09:00:00-07:00
 draft: false
 categories: ["Security"]
 tags: ["Security", "Cyberwar"]
@@ -21,7 +21,7 @@ It is a globally-accessible knowledge base of adversary **tactics** (grouped in 
 
 You can access the tool on
 
-        [https://attack.mitre.org/](https://attack.mitre.org)
+[https://attack.mitre.org/](https://attack.mitre.org)
 
 and it is worth a look.
 
