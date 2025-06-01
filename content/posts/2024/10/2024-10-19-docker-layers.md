@@ -14,7 +14,7 @@ slug: "docker-layers"
 
 ## Understanding RUN in Docker
 
-Docker uses layers to make images efficient, reusable, and cacheable. Each layer represents a step in the Dockerfile and helps optimize storage and performance. But sometimes too many layers might not be wanted.
+Docker uses [layers](https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/) to make images efficient, reusable, and cacheable. Each layer represents a step in the Dockerfile and helps optimize storage and performance. But sometimes too many layers might not be wanted.
 
 Each RUN statement in a Dockerfile executes commands and **creates an own new layer** in the final docker image. For example:
 
